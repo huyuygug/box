@@ -315,4 +315,16 @@ body {
     to {
         transform: scale(0) rotate(-0.5turn);
     }
+.custom-button {
+    background-color: #3d030300; /* Màu nền của nút */
+    color: white; /* Màu chữ */
+    position: relative;
+    bottom: 240px; /* Khoảng cách từ đáy */
+    font-size: 16px; /* Kích thước chữ */
+    padding: 125px 125px; /* Khoảng cách bên trong nút (top-bottom, left-right) */
+    border: none; /* Không viền */
+    border-radius: 8px; /* Bo tròn góc */
+    cursor: pointer; /* Đổi con trỏ chuột khi hover */
+    transition: background-color 0.3s; /* Hiệu ứng chuyển màu nền khi hover */
+}
 }
