@@ -320,6 +320,49 @@
       transform: scale(0) rotate(-0.5turn);
     }
   }
+
+  @keyframes openhop{
+    from{
+      transform: scale(1,1);
+    }
+    85%{
+      transform: scale(1.2,0.7);
+    }
+    90%{
+      transform: scale(0.9,1.2);
+    }
+  } 
+
+  @keyframes opennap{
+    from{
+      transform: scale(1,1) translateY(0);
+    }
+    85%{
+      transform: scale(1.2,0.9) translateY(90%);
+    }
+    90%{
+      transform: scale(1,1.2) translateY(-10%);
+    }
+    to{
+      transform: translateY(-900%);
+    }
+  }
+
+  @keyframes no{
+    from{
+      transform: scale(1,1) translateY(0);
+    }
+    85%{
+      transform: scale(1.1,1.1) translateY(125%);
+    }
+    90%{
+      transform: scale(1.2,1.2) translateY(-10);
+    }
+    to{
+      transform: translateY(-900%);
+    }
+  }
+
   .custom-button {
     background-color: #3d030300; /* Màu nền của nút */
     color: rgba(255, 255, 255, 0); /* Màu chữ */
