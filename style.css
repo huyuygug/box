@@ -344,7 +344,7 @@
       transform: scale(1,1.2) translateY(-10%);
     }
     to{
-      transform: translateY(-300px);
+      transform: translateY(-600px);
     }
   }
 
@@ -359,7 +359,7 @@
       transform: scale(1.2,1.2) translateY(-10%);
     }
     to{
-      transform: translateY(-300px);
+      transform: translateY(-600px);
     }
   }
 
