@@ -11,8 +11,8 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     // Khi nhấn nút "Dừng hiệu ứng"
     stopButton.addEventListener("click", function() {
-        gift4.style.animation = "openhop 4s forwards";
-        star.style.animation = "no 4.07s forwards"; // Dừng hiệu ứng
-        gift.style.animation = "opennap 4s forwards"; // Dừng hiệu ứng
+        gift4.style.animation = "openhop 1s forwards";
+        star.style.animation = "no 1s forwards"; // Dừng hiệu ứng
+        gift.style.animation = "opennap 1s forwards"; // Dừng hiệu ứng
     });
 });
