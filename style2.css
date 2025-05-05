@@ -6,7 +6,8 @@
   
   .typing {
     width: 8ch;
-    animation: typing 1s steps(8), blink .5s step-end infinite alternate;
+    /*animation: typing 1s steps(8), blink .5s step-end infinite alternate;*/
+    animation: fly 2s forwards;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
@@ -19,7 +20,16 @@
       width: 0
     }
   }
-      
+  
+  @keyframes fly{
+    from {
+      transform: translateY(0) scale(0.1,0.1)
+    }
+    10%{
+      transform: translateY(-100px) scale(0.5,0.5);
+    }
+  }
+
   @keyframes blink {
     50% {
       border-color: transparent
