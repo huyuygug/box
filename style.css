@@ -1,6 +1,16 @@
+
 .text{
-    font-size: 50px;
-    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 20px;
+    color: #dfdfdf;
+    text-shadow: 
+    0.5px 0.5px 0 #000000, 
+    -0.5px -0.5px 0 #000000,  
+    0.5px -0.5px 0 #000000,  
+    -0.5px 0.5px 0 #000000;
     text-align: center;
     z-index: -10;
     position: absolute;
@@ -396,7 +406,7 @@
 
   .custom-button {
     background-color: #3d030300; /* Màu nền của nút */
-    color: rgba(255, 255, 255, 0); /* Màu chữ */
+    color: rgba(250, 0, 0, 0); /* Màu chữ */
     position: relative; 
     bottom: 290px; /* Khoảng cách từ đáy */
      /* Kích thước chữ */
