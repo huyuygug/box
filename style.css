@@ -5,7 +5,7 @@
     font-weight: 500;
     font-style: italic;
     font-size: 20px;
-    color: #dfdfdf;
+    color: #f7f6f6;
     text-shadow: 
     0.5px 0.5px 0 #000000, 
     -0.5px -0.5px 0 #000000,  
@@ -405,16 +405,39 @@
   }
 
   .custom-button {
-    background-color: #3d030300; /* Màu nền của nút */
-    color: rgba(250, 0, 0, 0); /* Màu chữ */
-    position: relative; 
+    background-color: #6091fa; /* Màu nền của nút */
+    color: rgb(185, 134, 134); /* Màu chữ */
+    position: grid;
+
     bottom: 290px; /* Khoảng cách từ đáy */
      /* Kích thước chữ */
     font-size: 16px;
-    transform: scale(4,15);;
+    transform: scale(3,3);
     
     /*padding: 125px 125px; /* Khoảng cách bên trong nút (top-bottom, left-right) */
-    border: none; /* Không viền */
+    border-radius: 20%;
+    border-color: aqua;
+    background-origin: padding-box; /* Không viền */
     /*border-radius: 8px; /* Bo tròn góc */
+    place-items: center;
+    margin: 0;
     cursor: pointer; /* Đổi con trỏ chuột khi hover */
+    transition: transform 0.2s ease;
+}
+.custom-button:active{
+  transform: scale(0.96);
+}
+@keyframes kk {
+  from{
+    transform: scale(1,1);
+  }
+  10%{
+    transform: scale(3,3);
+  }
+  20%{
+    transform: scale(3,3);
+  }
+  to{
+    transform: scale(0,0);
+  }
 }
